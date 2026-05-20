@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro aula de java</title>
+</head>
+<body id="Corpo">
+    <h1 id="Fonte1"> Hello world</h1>
+    <p id="Fonte2">Esse é o meu primeiro código de java.</p>
+
+    <h2>Aperte para mudar de cor de fundo da tela</h2>
+    <button onclick="Mudar_de_cor()">Trocar de cor</button>
+
+    <button onclick="Mudar()">Clique aqui </button>
+    <script>
+        function Mudar_de_cor(){
+        let cores = ["#FF5733","#3357FF","#33FF57","#FF33A1"];
+
+        let corAleatoria = cores [Math.floor(Math.random() * cores.length)]
+
+        document.body.style.backgroundColor = corAleatoria;
+        }
+
+        function Mudar(){
+            const preto ="#000000";
+            const branco ="#FFFFFF";
+            const verde ="#00FF00";
+
+            document.getElementById("Corpo").style.backgroundColor = preto;
+            document.getElementById("Fonte1").style.backgroundColor=branco;
+            document.getElementById("Fonte2").style.color = branco;
+
+            let fonte2 = document.getElementById("Fonte2");
+            fonte2.style.backgroundColor = verde;
+            fonte2.style.color = preto;
+        }
+    </script>
+</body>
+</html>

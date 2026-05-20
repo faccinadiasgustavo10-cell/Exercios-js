@@ -1,0 +1,9 @@
+//Exerciso de java
+let nome = Number(prompt("Digite a sua idade:"));
+
+    if (nome>18){
+        console.log("vc é mairo de idade!")
+    }
+    else (nome<18){
+        console.log("vc é de menor de iadade!")
+    }
