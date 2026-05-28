@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#caixa {
+  width: 370px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#titulo {
+  margin-bottom: 16px;
+}
+
+#botao-adicionar {
+  padding: 9px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: 2px black;
+  background-color: #020037;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#lista {
+  list-style: none;
+}
+
+/* Itens da lista */
+#lista li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 19px;
+}
+
+#digitacao{
+  padding: 9px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 7px;
+  font-size: 16px;
+  width: 50%;
+  border: 2px solid black;
+
+
+}
